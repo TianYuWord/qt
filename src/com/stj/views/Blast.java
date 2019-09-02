@@ -16,6 +16,8 @@ public class Blast implements Runnable
 	
 	public Blast(int x,int y)
 	{
+		System.out.println(this.X);
+		System.out.println(this.Y);
 		this.X = x;
 		this.Y = y;
 	}
